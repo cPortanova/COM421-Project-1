@@ -1,0 +1,60 @@
+body {
+    background-color: oldlace;
+    margin: 75px;
+    font-size: medium;
+  }
+header {
+    text-align: center;
+}
+figure{
+    margin: auto;
+    align-content: center;
+}
+figcaption{
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+}
+aside{
+    text-align: center;
+    font-weight: bold;
+    border:3px solid darkgoldenrod;
+    background-color: wheat;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 150px;
+    margin-right:150px;
+}
+ul{
+    text-align: left;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.button{
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.button img {
+  vertical-align: middle;
+}
+.homepagenav {
+    font-size: larger;
+}
+#conclusion{
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 150px;
+    margin-right:150px;
+    border: 3px solid seagreen;
+    background-color: honeydew;
+}

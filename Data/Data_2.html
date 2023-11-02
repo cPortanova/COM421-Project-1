@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Descriptive Statistics</title>
+    <meta name="description" content="The second section of the data module.">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css">
+</head>
+<body>
+    <div id="page">
+        <header>
+            <h1>Run Descriptive Statistics</h1>
+        </header>
+        <section id="content">
+            <aside>
+                <p>Analyzing descriptive statistics may lead you to ask new questions. For example, <i>perc_enjoy</i> is much higher on average than <i>perc_usefulness</i>, which also has a large variance. This suggests that a segment of users may not have considered the system useful even though they enjoyed using it.</p>
+            </aside>
+            <p>Run descriptive (summary) statistics on the dataset and output results in a new spreadsheet. If necessary, rearrange columns so that data requiring summary, those with <b>continuous</b> values, are adjacent. (In the spreadsheet, the continuous values of <i>perc_enjoy, perc_usefulness</i>, and <i>perc_ease_of_use</i> are already adjacent.)</p>
+            <p>Write down the "input range" (i.e. H2:J26) of the data requiring summary, making sure not to include variable labels.</p>
+            <ol>
+                <li>Go to <b>Tools &gt; Add-Ins...</b> and make sure <b>Analysis ToolPak</b> is checked. Click OK.</li>
+                <li>Go to <b>Tools &gt; Data Analysis</b> and select <b>Descriptive Statistics</b>. Click OK.</li>
+                <li>Enter the input range in the blank and check <b>Summary Statistics</b>. Click OK.</li>
+            </ol>
+            <p>The descriptive statistics summary will output in a new sheet. Rename this spreadsheet Descriptive_Stats. Label the output according to the variables. For example, <i>Column 1</i> should be <i>perc_enjoy</i>. Your Descriptive_Stats spreadsheet should now look like Figure 4.</p>
+            <p>Analyzing descriptive statistics is a great way to start appraising a dataset before running inferential statistics. What insights about the dataset can you glean from the summary statistics for <i>perc_usefulness</i> and <i>perc_ease_of_use</i>?</p>
+            <figure>
+                <img src="../files/illustrations/datalesson_fig4.png" alt="Screenshot of descriptive statistics spreadsheet." class="center">
+                <figcaption>Excel will not run descriptive statistics with non-numeric characters, so the variable labels must be re-entered.</figcaption>
+            </figure> 
+        </section>
+        <nav class="button">
+            <a href=Data_1.html><img src=../files/icons/arrow_left.gif alt="Arrow pointing to left" width="100" height="100"></a>
+            <a href=../Index.html><img src=../files/icons/home.gif alt="Home" width="100" height="100"></a>
+            <a href=Data_3.html><img src=../files/icons/arrow_right.gif alt="Arrow pointing to right" width="100" height="100"></a>
+        </nav>
+    </div>
+</body>
+</html>
